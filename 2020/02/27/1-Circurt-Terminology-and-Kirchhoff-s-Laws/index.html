@@ -63,7 +63,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">647字</span>
+            <span class="post-count">652字</span>
         </span>
     </span>
 
@@ -100,8 +100,7 @@
 
       
       <h1 id="Leture-1"><a href="#Leture-1" class="headerlink" title="Leture 1"></a>Leture 1</h1><h2 id="Circurt-Terminology-and-Kirchhoff’s-Laws"><a href="#Circurt-Terminology-and-Kirchhoff’s-Laws" class="headerlink" title="Circurt Terminology and Kirchhoff’s Laws"></a>Circurt Terminology and Kirchhoff’s Laws</h2><hr>
-<p><b><font size="5">1. Circuit Terminology</font></b></p>
-<ul>
+<h3 id="1-Circuit-Terminology"><a href="#1-Circuit-Terminology" class="headerlink" title="1. Circuit Terminology"></a>1. Circuit Terminology</h3><ul>
 <li>charge 电荷 (q)  $$q = n \cdot q_e$$ where n is a integer &amp; $q_e = -1.602 \times 10^{-19}coulomb(C)$</li>
 <li>current 电流 (i)<br>  $$i = \frac{\text{Net charge crossing surface in time }\Delta t}{\Delta t} = \frac{dq}{dt}$$<br>  unit: Ampere(A)</li>
 <li>votage(potential) 电压(V) $$V_{AB} = \frac{\text{Energy gamed by the charge in moving from A to B}}{\text{Quantity of the charge}} = \frac{dE}{dq}$$ unit: volt(V)  </li>
@@ -111,8 +110,9 @@
 <li>power 功率 (p) $$p = \frac{\text{Transfer of energy in time }\Delta t}{\Delta t} = \frac{dE}{dt}$$ $$p = \frac{dE}{dt} = \frac{dE}{dq}\cdot\frac{dq}{dt} = V \cdot i$$ unit: walt(W)</li>
 <li><em>以上所有微分定义都可用积分进行运算*</em></li>
 </ul>
-<p><b><font size="5">2. Circuit Terminology</font></b></p>
-<ul>
+<a id="more"></a>
+
+<h3 id="2-Circuit-Terminology"><a href="#2-Circuit-Terminology" class="headerlink" title="2. Circuit Terminology"></a>2. Circuit Terminology</h3><ul>
 <li>Reference: direction<br>&emsp;&emsp;voltage :&ensp;$+/-$&emsp;signs<br>&emsp;&emsp;current : arrow</li>
 </ul>
 <p><b>In this course, we will follow the “passive sign convension”(一致参考方向/关联参考方向) current flows into the positive polarity of the voltage</b></p>
@@ -120,8 +120,7 @@
 
 <center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/p.png" hight="80%" width="80%"></center>
 
-<p><b><font size="5">3. Ideal Basic Circuit Elements</font></b></p>
-<center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/Active elements.png" hight="80%" width="80%" alter="Active elements"></center>
+<h3 id="3-Ideal-Basic-Circuit-Elements"><a href="#3-Ideal-Basic-Circuit-Elements" class="headerlink" title="3. Ideal Basic Circuit Elements"></a>3. Ideal Basic Circuit Elements</h3><center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/Active elements.png" hight="80%" width="80%" alter="Active elements"></center>
 <center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/Passive elements.png" hight="80%" width="80%" alter="Passive elements"></center>
 
 <ul>
@@ -157,8 +156,7 @@
 <ul>
 <li>Ideal operational amplifire （运算放大器）</li>
 </ul>
-<p><b><font size="5">4. Kirchhoff’s Laws 基尔霍夫定律</font></b></p>
-<ul>
+<h3 id="4-Kirchhoff’s-Laws-基尔霍夫定律"><a href="#4-Kirchhoff’s-Laws-基尔霍夫定律" class="headerlink" title="4. Kirchhoff’s Laws 基尔霍夫定律"></a>4. Kirchhoff’s Laws 基尔霍夫定律</h3><ul>
 <li><p>Definition</p>
 <ul>
 <li>Node（节点) : A point where two or more circuit elements are connected</li>
@@ -173,12 +171,9 @@
 <p>$$\sum^{n}_{j = 1}{i_j = 0}$$</p>
 <center><font size="2">Kirchhoff's current Law</font></center>
 
-<p>&emsp;<b>Proof : </b></p>
-<center>From law of consorvation of electric change（电荷守恒公理）</center>
-
-
-<p>$$\sum^{n}<em>{j = 1}{q_j = 0}\text{ }\rArr\text{ }\sum^{n}</em>{j = 1}{\frac{dq_i}{dt} = 0}\text{ }\rArr\text{ }\sum^{n}_{j = 1}{i_j = 0}$$</p>
-<p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction of currents<br>&emsp;&emsp;&emsp;&emsp;(2) in series(串联) $i_1 = i_2$ is a simple use of KCL<br>&emsp;&emsp;&emsp;&emsp;(3) <b>Any node $\rarr$ Any closed surface</b></p>
+<p>&emsp;<b>Proof : </b><br>&emsp;&emsp;&emsp;&emsp;&emsp;From law of consorvation of electric change（电荷守恒公理）</p>
+<p>$$\sum^{n}<em>{j = 1}{q_j = 0}\rArr\sum^{n}</em>{j = 1}{\frac{dq_i}{dt} = 0}\rArr\sum^{n}_{j = 1}{i_j = 0}$$</p>
+<p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction of currents<br>&emsp;&emsp;&emsp;&emsp;(2) in series(串联) $i_1 = i_2$ is a simple use of KCL<br>&emsp;&emsp;&emsp;&emsp;(3) <b>Any node &rarr; Any closed surface</b></p>
 <p></p>
 
 <ul>
@@ -187,12 +182,8 @@
 <p>$$\sum^{n}_{j = 1}{V_j = 0}$$</p>
 <center><font size="2">Kirchhoff's voltage Law</font></center>
 
-<p>&emsp;<b>Proof : </b></p>
-<center>From law of consorvation of energy（能量守恒定律）</center>
-<center>energy supplied = energy consumed</center>
-
-
-<p>$$q\cdot V_1 = -q\sum^{n}<em>{j = 2}{V_j}\text{ }\text{ }\sum^{n}</em>{j = 1}{V_j = 0}$$</p>
+<p>&emsp;<b>Proof : </b><br>&emsp;&emsp;&emsp;&emsp;&emsp;From law of consorvation of energy（能量守恒定律), energy supplied = energy consumed</p>
+<p>$$q\cdot V_1 = -q\sum^{n}<em>{j = 2}{V_j}\rArr\sum^{n}</em>{j = 1}{V_j = 0}$$</p>
 <p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction(polarity) of voltage<br>&emsp;&emsp;&emsp;&emsp;(2) in parallel(并联) $V_1 = V_2$ is a simple use of KVL</p>
 
       
@@ -487,10 +478,10 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-    strings: ['人生得意须尽欢，莫使金樽空对月','',''],
+    strings: ['还是种田比较适合老子','',''],
     startDelay: 1000,
     typeSpeed: 200,
-    loop: false,
+    loop: true,
     backSpeed: 0,
     showCursor: true
     });
@@ -671,6 +662,6 @@
 
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
   </div>
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"width":300,"height":600,"position":"right","hOffset":0,"vOffset":-120},"mobile":{"show":false}});</script></body>
 
 </html>
