@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8" />
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    1.Circurt Terminology and Kirchhoff&#39;s Laws |  Blog
+    1. Circurt Terminology and Kirchhoff&#39;s Laws |  Blog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
   
-<script src="/js/pace.min.js"></script>
+<script src="/js/pace.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 
   
@@ -28,7 +28,7 @@
 </html>
 
 <body>
-  <div id="app">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="app">
     <main class="content">
       <section class="outer">
   <article id="post-1-Circurt-Terminology-and-Kirchhoff-s-Laws" class="article article-type-post" itemscope
@@ -39,7 +39,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  1.Circurt Terminology and Kirchhoff&#39;s Laws
+  1. Circurt Terminology and Kirchhoff&#39;s Laws
 </h1>
   
 
@@ -53,7 +53,7 @@
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Electric-Circuits/">Electric Circuits</a>
+    <a class="article-category-link" href="/categories/Electric-Circuit/">Electric Circuit</a>
   </div>
 
       
@@ -63,7 +63,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">652字</span>
+            <span class="post-count">654字</span>
         </span>
     </span>
 
@@ -101,17 +101,15 @@
       
       <h1 id="Leture-1"><a href="#Leture-1" class="headerlink" title="Leture 1"></a>Leture 1</h1><h2 id="Circurt-Terminology-and-Kirchhoff’s-Laws"><a href="#Circurt-Terminology-and-Kirchhoff’s-Laws" class="headerlink" title="Circurt Terminology and Kirchhoff’s Laws"></a>Circurt Terminology and Kirchhoff’s Laws</h2><hr>
 <h3 id="1-Circuit-Terminology"><a href="#1-Circuit-Terminology" class="headerlink" title="1. Circuit Terminology"></a>1. Circuit Terminology</h3><ul>
-<li>charge 电荷 (q)  $$q = n \cdot q_e$$ where n is a integer &amp; $q_e = -1.602 \times 10^{-19}coulomb(C)$</li>
-<li>current 电流 (i)<br>  $$i = \frac{\text{Net charge crossing surface in time }\Delta t}{\Delta t} = \frac{dq}{dt}$$<br>  unit: Ampere(A)</li>
-<li>votage(potential) 电压(V) $$V_{AB} = \frac{\text{Energy gamed by the charge in moving from A to B}}{\text{Quantity of the charge}} = \frac{dE}{dq}$$ unit: volt(V)  </li>
+<li>charge 电荷 (q)  <script type="math/tex">q = n \cdot q_e</script> where n is a integer &amp; $q_e = -1.602 \times 10^{-19}coulomb(C)$</li>
+<li>current 电流 (i) <script type="math/tex; mode=display">i = \frac{\text{Net charge crossing surface in time }\Delta t}{\Delta t} = \frac{dq}{dt}</script>  unit: Ampere(A)</li>
+<li>votage(potential) 电压(V)<script type="math/tex; mode=display">V_{AB} = \frac{\text{Energy gamed by the charge in moving from A to B}}{\text{Quantity of the charge}} = \frac{dE}{dq}</script>unit: volt(V)  </li>
 </ul>
 <p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) electric force only (energy $\uparrow$, $V_{AB}$ positive)<br>&emsp;&emsp;&emsp;&emsp;(2) voltage is a relative quantity (Absolute quantity: reference ground or a point at infinity)<br>&emsp;&emsp;&emsp;&emsp;(3) path of motion wires/circuit components<br>&emsp;&emsp;&emsp;&emsp;(4) $V_{AB}$ independent of path</p>
 <ul>
-<li>power 功率 (p) $$p = \frac{\text{Transfer of energy in time }\Delta t}{\Delta t} = \frac{dE}{dt}$$ $$p = \frac{dE}{dt} = \frac{dE}{dq}\cdot\frac{dq}{dt} = V \cdot i$$ unit: walt(W)</li>
-<li><em>以上所有微分定义都可用积分进行运算*</em></li>
+<li>power 功率 (p) <script type="math/tex; mode=display">p = \frac{\text{Transfer of energy in time }\Delta t}{\Delta t} = \frac{dE}{dt}</script><script type="math/tex; mode=display">p = \frac{dE}{dt} = \frac{dE}{dq}\cdot\frac{dq}{dt} = V \cdot i</script>unit: walt(W)<br><strong>以上所有微分定义都可用积分进行运算</strong></li>
 </ul>
 <a id="more"></a>
-
 <h3 id="2-Circuit-Terminology"><a href="#2-Circuit-Terminology" class="headerlink" title="2. Circuit Terminology"></a>2. Circuit Terminology</h3><ul>
 <li>Reference: direction<br>&emsp;&emsp;voltage :&ensp;$+/-$&emsp;signs<br>&emsp;&emsp;current : arrow</li>
 </ul>
@@ -140,20 +138,17 @@
 
 </li>
 </ul>
-<p>$$V = i \cdot R$$<br>$$G(\text{conduetance 电导}) = \frac{1}{R} = \frac{i}{V}$$</p>
-<ul>
+<script type="math/tex; mode=display">V = i \cdot R</script><script type="math/tex; mode=display">G(\text{conduetance 电导}) = \frac{1}{R} = \frac{i}{V}</script><ul>
 <li>Ideal inductor （电感）<center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/Ideal Inductor.png" alt="Ideal Inductor" hight="30%" width="30%"></center>
 
 </li>
 </ul>
-<p>$$V = L(\text{inductance})\cdot \frac{di}{dt}$$</p>
-<ul>
+<script type="math/tex; mode=display">V = L(\text{inductance})\cdot \frac{di}{dt}</script><ul>
 <li>Ideal Capacitor （电容）<center><img src="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/Ideal Capacitor.png" alt="Ideal Capacitor" hight="30%" width="30%"></center>
 
 </li>
 </ul>
-<p>$$i = C(\text{capacitance})\cdot \frac{dv}{dt}$$</p>
-<ul>
+<script type="math/tex; mode=display">i = C(\text{capacitance})\cdot \frac{dv}{dt}</script><ul>
 <li>Ideal operational amplifire （运算放大器）</li>
 </ul>
 <h3 id="4-Kirchhoff’s-Laws-基尔霍夫定律"><a href="#4-Kirchhoff’s-Laws-基尔霍夫定律" class="headerlink" title="4. Kirchhoff’s Laws 基尔霍夫定律"></a>4. Kirchhoff’s Laws 基尔霍夫定律</h3><ul>
@@ -168,23 +163,19 @@
 <li><p>Kirchhoff’s current Law (KCL)<br><b>&emsp;&emsp;The algebraic sun of all the currents flowsing into (or out of) any node in a circuit equals to zero</b></p>
 </li>
 </ul>
-<p>$$\sum^{n}_{j = 1}{i_j = 0}$$</p>
-<center><font size="2">Kirchhoff's current Law</font></center>
+<script type="math/tex; mode=display">\sum^{n}_{j = 1}{i_j = 0}</script><center><font size="2">Kirchhoff's current Law</font></center>
 
 <p>&emsp;<b>Proof : </b><br>&emsp;&emsp;&emsp;&emsp;&emsp;From law of consorvation of electric change（电荷守恒公理）</p>
-<p>$$\sum^{n}<em>{j = 1}{q_j = 0}\rArr\sum^{n}</em>{j = 1}{\frac{dq_i}{dt} = 0}\rArr\sum^{n}_{j = 1}{i_j = 0}$$</p>
-<p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction of currents<br>&emsp;&emsp;&emsp;&emsp;(2) in series(串联) $i_1 = i_2$ is a simple use of KCL<br>&emsp;&emsp;&emsp;&emsp;(3) <b>Any node &rarr; Any closed surface</b></p>
+<script type="math/tex; mode=display">\sum^{n}_{j = 1}{q_j = 0}\Rightarrow \sum^{n}_{j = 1}{\frac{dq_i}{dt} = 0}\Rightarrow \sum^{n}_{j = 1}{i_j = 0}</script><p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction of currents<br>&emsp;&emsp;&emsp;&emsp;(2) in series(串联) $i_1 = i_2$ is a simple use of KCL<br>&emsp;&emsp;&emsp;&emsp;(3) <b>Any node &rarr; Any closed surface</b></p>
 <p></p>
 
 <ul>
 <li>Kirchhoff’s voltage Law (KVL)<br><b>&emsp;&emsp;The algebraic sun of all the voltage(drop or rise) around any loop in a circuit equals to zero</b></li>
 </ul>
-<p>$$\sum^{n}_{j = 1}{V_j = 0}$$</p>
-<center><font size="2">Kirchhoff's voltage Law</font></center>
+<script type="math/tex; mode=display">\sum^{n}_{j = 1}{V_j = 0}</script><center><font size="2">Kirchhoff's voltage Law</font></center>
 
 <p>&emsp;<b>Proof : </b><br>&emsp;&emsp;&emsp;&emsp;&emsp;From law of consorvation of energy（能量守恒定律), energy supplied = energy consumed</p>
-<p>$$q\cdot V_1 = -q\sum^{n}<em>{j = 2}{V_j}\rArr\sum^{n}</em>{j = 1}{V_j = 0}$$</p>
-<p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction(polarity) of voltage<br>&emsp;&emsp;&emsp;&emsp;(2) in parallel(并联) $V_1 = V_2$ is a simple use of KVL</p>
+<script type="math/tex; mode=display">q\cdot V_1 = -q\sum^{n}_{j = 2}{V_j}\Rightarrow \sum^{n}_{j = 1}{V_j = 0}</script><p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) reference direction is not actual direction(polarity) of voltage<br>&emsp;&emsp;&emsp;&emsp;(2) in parallel(并联) $V_1 = V_2$ is a simple use of KVL</p>
 
       
       <!-- reward -->
@@ -267,6 +258,15 @@
   
   
   <nav class="article-nav">
+    
+      <a href="/2020/03/01/2-Circuit-Analysis/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            2. Circuit Analysis
+          
+        </div>
+      </a>
     
     
       <a href="/2020/02/26/hello-world/" class="article-nav-link">
@@ -519,7 +519,7 @@
 
 <script>
   var ayerConfig = {
-    mathjax: true
+    mathjax: 
   }
 </script>
 
@@ -640,28 +640,24 @@
 
 
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-  });
-
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for(i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"width":300,"height":600,"position":"right","hOffset":0,"vOffset":-120},"mobile":{"show":false}});</script></body>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"width":300,"height":600,"position":"right","hOffset":0,"vOffset":-120},"mobile":{"show":false}});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 
 </html>

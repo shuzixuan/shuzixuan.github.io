@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8" />
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
   
-<script src="/js/pace.min.js"></script>
+<script src="/js/pace.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
 
   
@@ -28,7 +28,7 @@
 </html>
 
 <body>
-  <div id="app">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="app">
     <main class="content">
       
 <section class="cover">
@@ -70,6 +70,101 @@
     
     
     
+    <article id="post-2-Circuit-Analysis" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/03/01/2-Circuit-Analysis/"
+    >2. Circuit Analysis</a
+  >
+</h2>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/01/2-Circuit-Analysis/" class="article-date">
+  <time datetime="2020-03-01T08:01:59.000Z" itemprop="datePublished">2020-03-01</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Electric-Circuit/">Electric Circuit</a>
+  </div>
+
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <h1 id="Lectrue-2"><a href="#Lectrue-2" class="headerlink" title="Lectrue 2"></a>Lectrue 2</h1><h2 id="Circuit-Analysis"><a href="#Circuit-Analysis" class="headerlink" title="Circuit Analysis"></a>Circuit Analysis</h2><hr>
+<p><b>Notivation :</b></p>
+<center><img src="/2020/03/01/2-Circuit-Analysis/Notivation.png" alter="Notivation" width="70%"></center>
+
+<p><b>Things that you should considered :</b></p>
+<ol>
+<li><p>KCL</p>
+<script type="math/tex; mode=display">
+\begin{cases}-i_1-i_2=0  \\  
+i_2-i_3-i_4=0  \\  
+i_4-i_5=0  \\  
+i_1+i_3+i_5=0  \\  
+\end{cases}</script></li>
+<li><p>KVL</p>
+<script type="math/tex; mode=display">\begin{cases}V_1-V_2-V_3=0  \\  
+V_3-V_4-V_5=0  \\  
+V_1-V_2-V_4-V_5=0  \\  
+\end{cases}</script></li>
+<li><p>physical law of each element</p>
+</li>
+</ol>
+      
+      <a class="article-more-link" href="/2020/03/01/2-Circuit-Analysis/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Electric/" rel="tag">Electric</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
     <article id="post-1-Circurt-Terminology-and-Kirchhoff-s-Laws" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
@@ -79,7 +174,7 @@
        
 <h2 itemprop="name">
   <a class="article-title" href="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/"
-    >1.Circurt Terminology and Kirchhoff&#39;s Laws</a
+    >1. Circurt Terminology and Kirchhoff&#39;s Laws</a
   >
 </h2>
   
@@ -94,7 +189,7 @@
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Electric-Circuits/">Electric Circuits</a>
+    <a class="article-category-link" href="/categories/Electric-Circuit/">Electric Circuit</a>
   </div>
 
       
@@ -115,14 +210,13 @@
       
       <h1 id="Leture-1"><a href="#Leture-1" class="headerlink" title="Leture 1"></a>Leture 1</h1><h2 id="Circurt-Terminology-and-Kirchhoff’s-Laws"><a href="#Circurt-Terminology-and-Kirchhoff’s-Laws" class="headerlink" title="Circurt Terminology and Kirchhoff’s Laws"></a>Circurt Terminology and Kirchhoff’s Laws</h2><hr>
 <h3 id="1-Circuit-Terminology"><a href="#1-Circuit-Terminology" class="headerlink" title="1. Circuit Terminology"></a>1. Circuit Terminology</h3><ul>
-<li>charge 电荷 (q)  $$q = n \cdot q_e$$ where n is a integer &amp; $q_e = -1.602 \times 10^{-19}coulomb(C)$</li>
-<li>current 电流 (i)<br>  $$i = \frac{\text{Net charge crossing surface in time }\Delta t}{\Delta t} = \frac{dq}{dt}$$<br>  unit: Ampere(A)</li>
-<li>votage(potential) 电压(V) $$V_{AB} = \frac{\text{Energy gamed by the charge in moving from A to B}}{\text{Quantity of the charge}} = \frac{dE}{dq}$$ unit: volt(V)  </li>
+<li>charge 电荷 (q)  <script type="math/tex">q = n \cdot q_e</script> where n is a integer &amp; $q_e = -1.602 \times 10^{-19}coulomb(C)$</li>
+<li>current 电流 (i) <script type="math/tex; mode=display">i = \frac{\text{Net charge crossing surface in time }\Delta t}{\Delta t} = \frac{dq}{dt}</script>  unit: Ampere(A)</li>
+<li>votage(potential) 电压(V)<script type="math/tex; mode=display">V_{AB} = \frac{\text{Energy gamed by the charge in moving from A to B}}{\text{Quantity of the charge}} = \frac{dE}{dq}</script>unit: volt(V)  </li>
 </ul>
 <p><strong>&emsp;Note:</strong><br>&emsp;&emsp;&emsp;&emsp;(1) electric force only (energy $\uparrow$, $V_{AB}$ positive)<br>&emsp;&emsp;&emsp;&emsp;(2) voltage is a relative quantity (Absolute quantity: reference ground or a point at infinity)<br>&emsp;&emsp;&emsp;&emsp;(3) path of motion wires/circuit components<br>&emsp;&emsp;&emsp;&emsp;(4) $V_{AB}$ independent of path</p>
 <ul>
-<li>power 功率 (p) $$p = \frac{\text{Transfer of energy in time }\Delta t}{\Delta t} = \frac{dE}{dt}$$ $$p = \frac{dE}{dt} = \frac{dE}{dq}\cdot\frac{dq}{dt} = V \cdot i$$ unit: walt(W)</li>
-<li><em>以上所有微分定义都可用积分进行运算*</em></li>
+<li>power 功率 (p) <script type="math/tex; mode=display">p = \frac{\text{Transfer of energy in time }\Delta t}{\Delta t} = \frac{dE}{dt}</script><script type="math/tex; mode=display">p = \frac{dE}{dt} = \frac{dE}{dq}\cdot\frac{dq}{dt} = V \cdot i</script>unit: walt(W)<br><strong>以上所有微分定义都可用积分进行运算</strong></li>
 </ul>
       
       <a class="article-more-link" href="/2020/02/27/1-Circurt-Terminology-and-Kirchhoff-s-Laws/">阅读更多...</a>
@@ -397,7 +491,7 @@
 
 <script>
   var ayerConfig = {
-    mathjax: true
+    mathjax: 
   }
 </script>
 
@@ -518,28 +612,24 @@
 
 
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-  });
-
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for(i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"width":300,"height":600,"position":"right","hOffset":0,"vOffset":-120},"mobile":{"show":false}});</script></body>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/chitose.model.json"},"display":{"width":300,"height":600,"position":"right","hOffset":0,"vOffset":-120},"mobile":{"show":false}});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 
 </html>
